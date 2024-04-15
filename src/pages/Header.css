@@ -1,0 +1,105 @@
+.header {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  background-color:  #131921;;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.header-logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+
+}
+.header-middleSection {
+  display: flex;
+  flex: 1;
+  align-items: center;
+   
+}
+.header-middleSection:active {
+  border: 1px solid #f09620;
+}
+
+.header-searchBar {
+  height: 32px;
+  flex: 1;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 16px;
+  
+}
+.header-searchBar::placeholder {
+  padding-left: 16px;
+  font-size: 16px;
+}
+.header-searchButton {
+  height: 34px;
+  background-color: #cd9042;
+  border-right: 1px solid #cd9042;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+
+
+  margin-left: -4px;
+  display: flex;
+  align-items: center;
+}
+.header-searchIcon {
+  padding: 12px;
+  height: 18px;
+  
+}
+.header-rightSection {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+}
+.header-rightSectionContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.header-rightSectionContainersLineOne {
+  font-size: 10px;
+  
+}
+.header-rightSectionContainersLineTwo {
+  font-size: 13px;
+  font-weight: 700;
+}
+.header-rightSectionCartContainer {
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+ 
+  
+}
+.header-rightSectionCartContainer span{
+  text-decoration: none;
+}
+.header-rightSectionContainersCartIcon {
+  height: 24px;
+  
+
+}
+.count {
+  position: absolute;
+  top: -6px;
+ left: 15px;
+ color: #e28306;
+ 
+}

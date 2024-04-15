@@ -1,0 +1,33 @@
+.checkout {
+  display: flex;
+  padding: 20px 15px;
+  background-color: white;
+}
+
+.checkout-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-Ad {
+  position: fixed;
+  width: 700px;
+  margin-bottom: 10px;
+  z-index: 100px;
+
+}
+.checkout-Ad img {
+  height: 80px;
+  width: 700px;
+ 
+}
+.checkout-title {
+  margin-top: 0;
+  width: 700px;
+  padding: 10px 0;
+  background-color: white;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+
+}
+

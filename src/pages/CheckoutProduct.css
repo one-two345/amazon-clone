@@ -1,0 +1,25 @@
+.checkout-product {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  width: 500px;
+  z-index: -100px;
+  margin-bottom: 10px;
+  max-height: 200px;
+ 
+}
+.checkout-productImage {
+  height: 170px;
+  width: 170px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.rating {
+  display: flex;
+}
+.checkout-productInfo button {
+  width: 90%;
+  background-color: #f8af50;
+  margin-top: 70px;
+  margin-bottom: 10px;
+
+}

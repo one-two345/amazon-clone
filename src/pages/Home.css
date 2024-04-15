@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+  margin: 0 100px;
+}
+.home-image {
+  width: 100%;
+  
+  margin-bottom: -150px;
+}
+.home-rowOne,.home-rowTwo {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+ 
